@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+{% assign months = "Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p>{{ day }} {{ month }} {{ year }} - {{ page.author }}</p>
 
 {{ content }}
