@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt-br
 author: Alison Souza
 title: Conhecendo o Ruby
 ---

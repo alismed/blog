@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pt-br
 author: Alison Souza
 title: Todo mundo odeia o VIM
 ---
