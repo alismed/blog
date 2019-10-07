@@ -4,15 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
 
     {% comment %}
       Github Pages will automatically set jekyll.environment to production
     {% endcomment %}
     {% if jekyll.environment == 'production' %}
+    <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
     {% include analytics.html %}
+    {% else %}
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     {% endif %}
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{page.title}}" />
+    <meta name="twitter:site" content="@alismed79" />
+    <meta name="twitter:creator" content="@alismed79" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:description" content="{{page.excerpt | strip_html}}" />
   </head>
   <body>
     {{ content }}
   </body>
 </html>
+
