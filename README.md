@@ -8,7 +8,7 @@
 gem install jekyll bundler
 ```
 
-2. Create Gem file
+2. Create [Gem file](Gemfile)
 3. Run `bundle`
 4. Create the folders `_layouts` and `_posts`
 
