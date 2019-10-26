@@ -7,15 +7,17 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{page.excerpt | strip_html | truncatewords:99 }}">
 
-    {% comment %}
+  {% comment %}
       Github Pages will automatically set jekyll.environment to production
-    {% endcomment %}
-    {% if jekyll.environment == 'production' %}
+  {% endcomment %}
+  {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
-    {% include analytics.html %}
-    {% else %}
+    <link rel="stylesheet" href="/blog/assets/css/github.css">
+  {% include analytics.html %}
+  {% else %}
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    {% endif %}
+    <link rel="stylesheet" href="/assets/css/github.css">
+  {% endif %}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="twitter:card" content="summary" />
