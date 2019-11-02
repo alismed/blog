@@ -12,9 +12,13 @@
     {% endcomment %}
     {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
+    <script src="/blog/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/blog/assets/js/bootstrap.min.js"></script>
     {% include analytics.html %}
     {% else %}
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     {% endif %}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
