@@ -1,5 +1,10 @@
 ## Blog built in Jekyll
 
+**Requirements**
+
+- Ruby 2.5+
+
+
 **Setup**
 
 1. Install Jekyll
