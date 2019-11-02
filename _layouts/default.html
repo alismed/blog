@@ -13,11 +13,14 @@
   {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/blog/assets/css/github.css">
-  {% include analytics.html %}
-  {% else %}
+    <script src="/blog/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/blog/assets/js/bootstrap.min.js"></script>
+    {% include analytics.html %}
+    {% else %}
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/github.css">
-  {% endif %}
+    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="twitter:card" content="summary" />
