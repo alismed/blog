@@ -2,7 +2,7 @@
 
 **Requirements**
 
-- Ruby 2.5+
+- Ruby 2.6+
 
 
 **Setup**
