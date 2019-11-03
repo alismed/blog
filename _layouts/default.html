@@ -7,27 +7,31 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{page.excerpt | strip_html | truncatewords:99 }}">
 
-  {% comment %}
+   {% comment %}
       Github Pages will automatically set jekyll.environment to production
-  {% endcomment %}
-  {% if jekyll.environment == 'production' %}
+   {% endcomment %}
+   {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/blog/assets/css/github.css">
     <script src="/blog/assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="/blog/assets/js/bootstrap.min.js"></script>
-    {% include analytics.html %}
-    {% else %}
+   {% include analytics.html %}
+   {% else %}
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/github.css">
     <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    {% endif %}
+   {% endif %}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{page.title}}" />
     <meta name="twitter:site" content="@alismed79" />
     <meta name="twitter:creator" content="@alismed79" />
+   {% if page.twitter-img != nil %}
+    <meta name="twitter:image" content="{{site.url}}{{page.twitter-img}}" />
+    <meta property="og:image" content="{{site.url}}{{page.twitter-img}}" />
+   {% endif %}
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:title" content="{{page.title}}" />
     <meta property="og:description" content="{{page.excerpt | strip_html}}" />
