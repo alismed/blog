@@ -3,7 +3,7 @@ layout: post
 lang: pt-br
 author: Alison Souza
 title: Como instalar o docker no Ubuntu
-twitter-img: /assests/img/docker-whale.png
+twitter-img: /assets/img/docker-whale.png
 ---
 
 O roteiro abaixo monstra como executar a instalação no Ubuntu. Estes passos foram feitos para a versão `19.04`.
