@@ -12,11 +12,11 @@ layout: default
 <p>{{ day }} {{ month }} {{ year }} - {{ page.author }}</p>
 
 <div class="text-left">
-	<a class="btn btn-social-icon btn-xs btn-facebook" aria-label="compartilhe usando o facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/blog{{page.url}}&quote={{page.excerpt | strip_html}}" target="_blank">
+	<a class="btn btn-social-icon btn-xs btn-facebook" aria-label="compartilhe usando o facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/blog{{page.url}}&quote={{page.excerpt | strip_html | replace: " ", "&nbsp;" }}" >
     <i class="fa fa-facebook"></i></a>
-	<a class="btn btn-social-icon btn-xs btn-twitter" aria-label="compartilhe usando o twitter" href="https://twitter.com/intent/tweet?text={{page.excerpt | strip_html | truncatewords:280 }}&nbsp;{{ site.url }}/blog{{ page.url }}" target="_blank">
+	<a class="btn btn-social-icon btn-xs btn-twitter" aria-label="compartilhe usando o twitter" href="https://twitter.com/intent/tweet?text={{page.excerpt | strip_html | strip_newlines | replace: " ", "&nbsp;" | truncate:280 }}&nbsp;{{ site.url }}/blog{{ page.url }}" >
     <i class="fa fa-twitter"></i></a>
-	<a class="btn btn-social-icon btn-xs btn-linkedin" aria-label="compartilhe usando o linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}/blog{{page.url}}&title={{page.title}}&summary={{page.excerpt | strip_html | truncatewords:100 }}&source=alismed" target="_blank">
+	<a class="btn btn-social-icon btn-xs btn-linkedin" aria-label="compartilhe usando o linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}/blog{{page.url}}&title={{page.title}}&summary={{page.excerpt | strip_html | replace: " ", "&nbsp;" | strip_newlines | truncate:100 }}&source=alismed" >
     <i class="fa fa-linkedin"></i></a>
 </div>
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }}</title>
-    <meta name="description" content="{{page.excerpt | strip_html | truncatewords:99 }}">
+    <meta name="description" content="{{page.excerpt | strip_html | strip_newlines | truncate:240 }}">
 
    {% comment %}
       Github Pages will automatically set jekyll.environment to production
@@ -34,7 +34,7 @@
    {% endif %}
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:title" content="{{page.title}}" />
-    <meta property="og:description" content="{{page.excerpt | strip_html}}" />
+    <meta property="og:description" content="{{page.excerpt | strip_html | strip_newlines}}" />
   </head>
   <body>
     {% include menu.html %}
