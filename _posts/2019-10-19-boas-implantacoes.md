@@ -3,6 +3,7 @@ layout: post
 lang: pt-br
 author: Alison Souza
 title: Boas Implantações
+twitter-img: /assets/img/deploy.png
 ---
 O que torna uma implantação (hardware, software, documentação, dados), uma boa boa implantação.
 

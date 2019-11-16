@@ -3,6 +3,7 @@ layout: post
 lang: pt-br
 author: Alison Souza
 title: Todo mundo odeia o VIM
+twitter-img: /assets/img/vim.png
 ---
 
 O primeiro contato com o VIM pode ser [frustrante](http://vidadeprogramador.com.br/2011/04/11/strings-aleatorias/). A curva de aprendizado pode ser longa. Contudo vale muito a pena, principalmente se você trabalha com Linux. 

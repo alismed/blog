@@ -3,6 +3,7 @@ layout: post
 lang: pt-br
 author: Alison Souza
 title: Conhecendo o Ruby
+twitter-img: /assets/img/ruby-lang.png
 ---
 
 Conheça a linguagem de programação Ruby.
