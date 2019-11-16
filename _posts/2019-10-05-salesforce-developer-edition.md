@@ -3,6 +3,7 @@ layout: post
 lang: pt-br
 author: Alison Souza
 title: Salesforce Developer Edition
+twitter-img: /assets/img/salesforce-developers.png
 ---
 
 A Salesforce possui algumas opções de licenciamento, opções que refletem as edições disponíveis. Estas edições compartilham a aparência, mas variam de acordo com a capacidade, preços e limites de uso.
