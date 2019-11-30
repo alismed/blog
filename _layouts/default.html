@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }}</title>
+   {% if page.excerpt != null %}
     <meta name="description" content="{{page.excerpt | strip_html | strip_newlines | truncate:240 }}">
+   {%- else -%}
+    <meta name="description" content="alismed | Posts sobre tecnologia">
+   {%- endif -%}
 
-   {% comment %}
+   {%- comment -%}
       Github Pages will automatically set jekyll.environment to production
-   {% endcomment %}
+   {%- endcomment -%}
    {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/blog/assets/css/github.css">
