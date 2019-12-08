@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" href="/img/faviicon.png">
     <title>{{ page.title }}</title>
    {% if page.excerpt != null %}
     <meta name="description" content="{{page.excerpt | strip_html | strip_newlines | truncate:240 }}">
@@ -17,14 +18,14 @@
    {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/blog/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/blog/assets/css/github.css">
-    <script src="/blog/assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="/blog/assets/js/bootstrap.min.js"></script>
+    <script defer src="/blog/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script defer src="/blog/assets/js/bootstrap.min.js"></script>
    {% include analytics.html %}
    {% else %}
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/github.css">
-    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script defer src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script defer src="/assets/js/bootstrap.min.js"></script>
    {% endif %}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
