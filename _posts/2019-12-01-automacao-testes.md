@@ -6,7 +6,7 @@ author: Alison Souza
 twitter-img: /assets/img/automacao-testes.png
 ---
 
-A intenção não é falar sobre a importância dos testes ou explicar sobre os tipos existentes, mas sim comentar sobre como automatizar testes quando usarmos Ruby on Rails.
+Sobre como automatizar testes usando Ruby on Rails.
 
 Talvez você ainda não esteja aplicando [TDD](https://tdd.caelum.com.br/) (Test Driven Development), não considero um requisito, mas será mais fácil pensar na automação quando o ciclo proposto pelo TDD for aplicado.
 
