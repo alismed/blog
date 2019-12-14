@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-{% assign months = "Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez" | split: "|" %}
-{% assign m = page.date | date: "%-m" | minus: 1 %}
-{% assign day = page.date | date: "%d" %}
-{% assign month = months[m] %}
-{% assign year = page.date | date: "%Y" %}
+{%- assign months = "Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez" | split: "|" -%}
+{%- assign m = page.date | date: "%-m" | minus: 1 -%}
+{%- assign day = page.date | date: "%d" -%}
+{%- assign month = months[m] -%}
+{%- assign year = page.date | date: "%Y" -%}
 
 <div class="container">
 <h1>{{ page.title }}</h1>
@@ -16,7 +16,7 @@ layout: default
     <i class="fa fa-facebook"></i></a>
 	<a class="btn btn-social-icon btn-xs btn-twitter" aria-label="compartilhe usando o twitter" href="https://twitter.com/intent/tweet?text={{page.excerpt | strip_html | strip_newlines | replace: " ", "&nbsp;" | truncate:280 }}&nbsp;{{ site.url }}/blog{{ page.url }}" >
     <i class="fa fa-twitter"></i></a>
-	<a class="btn btn-social-icon btn-xs btn-linkedin" aria-label="compartilhe usando o linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}/blog{{page.url}}&title={{page.title}}&summary={{page.excerpt | strip_html | replace: " ", "&nbsp;" | strip_newlines | truncate:100 }}&source=alismed" >
+	<a class="btn btn-social-icon btn-xs btn-linkedin" aria-label="compartilhe usando o linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}/blog{{page.url}}&title={{page.title | replace: " ", "&nbsp;" | strip_newlines }}&summary={{page.excerpt | strip_html | replace: " ", "&nbsp;" | strip_newlines | truncate:100 }}&source=alismed" >
     <i class="fa fa-linkedin"></i></a>
 </div>
 
