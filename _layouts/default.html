@@ -30,17 +30,17 @@
    {% endif %}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{page.title}}" />
-    <meta name="twitter:site" content="@alismed79" />
-    <meta name="twitter:creator" content="@alismed79" />
+    <meta name="twitter:card" content="summary" >
+    <meta name="twitter:title" content="{{page.title}}" >
+    <meta name="twitter:site" content="@alismed_" >
+    <meta name="twitter:creator" content="@alismed_" >
    {% if page.twitter-img != nil %}
-    <meta name="twitter:image" content="{{site.url}}/blog{{page.twitter-img}}" />
-    <meta property="og:image" content="{{site.url}}/blog{{page.twitter-img}}" />
+    <meta name="twitter:image" content="{{site.url}}/blog{{page.twitter-img}}" >
+    <meta property="og:image" content="{{site.url}}/blog{{page.twitter-img}}" >
    {% endif %}
-    <meta property="og:url" content="{{site.url}}{{page.url}}" />
-    <meta property="og:title" content="{{page.title}}" />
-    <meta property="og:description" content="{{page.excerpt | strip_html | strip_newlines}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" >
+    <meta property="og:title" content="{{page.title}}" >
+    <meta property="og:description" content="{{page.excerpt | strip_html | strip_newlines}}" >
   </head>
   <body>
     {% include menu.html %}
