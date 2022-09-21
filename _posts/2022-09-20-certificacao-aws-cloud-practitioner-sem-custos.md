@@ -34,6 +34,8 @@ Além disso, há uma quantidade enorme de informação e conteúdo em [AWS Docs]
 
 Caso você esteja dando os primeiros passos com a plataforma, interessante dar uma olhada no [Getting Started](https://aws.amazon.com/getting-started/). E nesta situação também será muito interessante realizar alguns [workshops](https://workshops.aws/). A grande maioria atenderá o free-tier.
 
+Outro lugar menos convencional é o [Trailhead](https://trailhead.salesforce.com/content/learn/trails/learn-the-aws-cloud-practitioner-essentials), portal de e-learning da Salesforce. Há conteúdo oficial da AWS, mantido por eles. Será uma opção adicional em um formato diferente que vai ajudar a fixar os conhecimentos.
+
 Além disso, será relativamente fácil encontrar no [YouTube](https://www.google.com/search?q=aws+cloud+practitioner&client=firefox-b-e&biw=1366&bih=615&tbm=vid&sxsrf=ALiCzsbcW_X2wdaJLVChMMGUvzdgSuIniw%3A1663699614916&ei=ngoqY_fON96U5OUPv9W8iAg&ved=0ahUKEwj3lb2EhKT6AhVeCrkGHb8qD4EQ4dUDCAw&uact=5&oq=aws+cloud+practitioner&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBwgAELEDEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgARQkA9YkA9ggRNoAHAAeACAAWWIAZICkgEDMi4xmAEAoAEBwAEB&sclient=gws-wiz-video) canais dando aulas e preparando para o exame.
 
 Bons estudos e boa prova :)
