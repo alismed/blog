@@ -2,7 +2,7 @@
 layout: post
 lang: pt-br
 author: Alison Souza
-title: Certificacao AWS Cloud Practitioner sem custos
+title: Certificação AWS Cloud Practitioner sem custos
 twitter-img: /assets/img/aws-ccp.png
 ---
 
